@@ -1,0 +1,16 @@
+強制判定:
+let atk = Number(prompt("請輸入武器攻擊力："));
+
+while (isNaN(atk)) {
+    alert("❌ 請輸入數字！");
+    atk = Number(prompt("請輸入武器攻擊力："));
+}
+
+console.log("你的武器攻擊力是：" + atk);
+
+<br>
+
+目標型態	說明	用法	範例輸出
+Number	轉成數字	Number(x)	"50" → 50
+String	轉成字串	String(x)	50 → "50"
+Boolean	true/false	Boolean(x)	0→false、"abc"→true
